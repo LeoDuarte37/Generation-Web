@@ -1,0 +1,103 @@
+/* Padrões */ 
+* {
+    font-family: sans-serif;
+    color: azure;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(229, 9, 20);
+    color: white;
+}
+
+input, select {
+    padding: 0.7rem;
+    border-radius: 4px;
+    border-style: solid;
+    background: transparent;
+}
+
+.line-heigth {
+    line-height: 3.5rem;
+}
+
+/* Corpo da página */
+body {
+    background: url(/assets/img/background.jpg);
+    background-size: 100%;
+}
+
+/* Navbar */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15rem 0 15rem;
+}
+
+.menu img {
+    width: 190px;
+}
+
+.menu select {
+    width: 8rem;
+}
+
+.menu select option {
+    color: black;
+}
+
+.btn-menu {
+    padding: 0.7rem;
+    width: 5rem;
+    border-radius: 4px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+header p, h3 {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.div-btn button {
+    padding: 1rem;
+    width: 30%;
+    height: 100%;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 16px;
+    border-style: none;
+}
+
+.div-btn input {
+    width: 60%;
+}
+
+/* Section */
+section {
+    display: flex;
+    justify-content: center;
+}
