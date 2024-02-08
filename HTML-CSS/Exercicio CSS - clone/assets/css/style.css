@@ -1,0 +1,171 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+/* Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    color: white;
+    background-color: #0068EC;
+    border: none;
+    border-radius: 2px;
+    font-weight: 800;
+}
+
+.line {
+    width: 40%;
+    height: 1px;
+    background: #DDDDDD;
+}
+
+.box-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+/* Index */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #F5F9FC;
+}
+
+.banner {
+    overflow: hidden;
+}
+
+.banner img {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.banner .sobreposicao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 27rem;
+    left: 23rem;
+    color: white;
+}
+
+.banner .sobreposicao p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+.banner .sobreposicao button {
+    width: 70%;
+    height: 3.5rem;
+    background: transparent;
+    color: white;
+    border: white solid 2px;
+    border-radius: 4px;
+}
+
+.form {
+    padding: 6.5rem;
+    width: 70%;
+}
+
+.form .title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form .title img {
+    width: 255px;
+    height: 90px;
+    margin-bottom: 0.4rem;
+}
+
+.form .title p {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.form .form-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.form .form-login p, label {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(73, 73, 73);
+}
+
+.form .form-login .form-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.form .form-login .form-buttons img {
+    width: 25px;
+    margin: 0 1rem;
+}
+
+.form .form-login .form-buttons button {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-weight: 600;
+    width: 14rem;
+    height: 2.5rem;
+}
+
+.form .form-login form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form .form-login form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.form .form-login form div input {
+    width: 100%;
+    height: 3rem;
+    border-color: #DDDDDD;
+}
+
+.form .form-login form button {
+    width: 40%;
+    height: 4rem;
+    margin: 2rem 0;
+}
+
+.form .form-login form a {
+    color: #0068EC;
+    text-decoration: none;
+}
+
+/* Processos de recrutamento */
