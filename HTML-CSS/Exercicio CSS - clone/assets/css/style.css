@@ -12,6 +12,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow: auto;
 }
 
 button {
@@ -41,7 +42,6 @@ main {
     grid-template-columns: 1fr 1fr;
     width: 100%;
     height: 100%;
-    overflow: auto;
     background-color: #F5F9FC;
 }
 
@@ -169,3 +169,125 @@ main {
 }
 
 /* Processos de recrutamento */
+svg {
+    width: 22px;
+    height: 22px;
+    fill: rgb(129, 129, 129);
+    margin-right: 8px;
+}
+
+.sininho {
+    fill: white;
+    margin: 0;
+}
+
+.navbar-items, .navbar {
+    background-color: #0068EC;
+    color: white;
+    height: 6rem;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0.25rem 0.625rem rgba(0,0,0,.1);
+    position: relative;
+}
+
+.navbar-items p {
+    font-size: 14px;
+    color: white;
+}
+
+.navbar-items .perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.navbar-items .picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+}
+
+header {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    position: relative;
+    bottom: 50px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: white;
+}
+
+header .applications {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+header .application {
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 106, 236, 0.13) 0px 3px 20px;
+}
+
+header .application .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.application .info div {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.application .info .informations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.application .info .informations p:last-child {
+    width: 100px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.application .process div {
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.application .process .function {
+    font-weight: 600;
+}
+
+.application .btn-help {
+    display: flex;
+    justify-content: center;
+}
+
+.application button {
+    width: 100%;
+    height: 3rem;
+    background: transparent;
+    color: black;
+    border: black solid 2px;
+    border-radius: 4px;
+    margin: 2rem 0;
+}
+
