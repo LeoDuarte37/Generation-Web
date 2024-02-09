@@ -34,21 +34,22 @@
                 </div>
                 <form action="applications.html">
                     <div>
-                        <label for="email">E-mail</label>
-                        <input type="text">
+                        <label for="email">E-mail <span id="txtEmail"></span></label>
+                        <input type="text" id="email" onkeyup="checkEmail()">
                     </div>
 
                     <div>
-                        <label for="password">Password</label>
-                        <input type="text">
+                        <label for="password">Password <span id="txtPassword"></span></label>
+                        <input type="text" id="password" onkeyup="checkPassword()">
                     </div>
-
-                    <button>Iniciar</button>
-
+                    
+                    <button onclick="submitForm()">Iniciar</button>
+                    
                     <p><a href="">Esqueceu a senha?</a></p>
                 </form>
             </div>
         </div>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

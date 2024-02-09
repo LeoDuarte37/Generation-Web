@@ -23,6 +23,11 @@ button {
     font-weight: 800;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .line {
     width: 40%;
     height: 1px;
@@ -155,6 +160,7 @@ main {
     width: 100%;
     height: 3rem;
     border-color: #DDDDDD;
+    padding-left: 1rem;
 }
 
 .form .form-login form button {
@@ -163,9 +169,8 @@ main {
     margin: 2rem 0;
 }
 
-.form .form-login form a {
+.form .form-login form p a {
     color: #0068EC;
-    text-decoration: none;
 }
 
 /* Processos de recrutamento */
