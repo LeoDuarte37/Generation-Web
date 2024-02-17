@@ -1,8 +1,6 @@
-import { useNavigate, Link } from 'react-router-dom';
 import React from 'react';
 
 function Home() {
-    //let navigate = useNavigate();
 
     return (
         <>
